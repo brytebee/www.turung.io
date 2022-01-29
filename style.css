@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Roboto+Slab:wght@300;400;500;700&display=swap");
+
+/* tags */
+body,
+html {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Move to to arrow styles */
+
+button a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+/* Colors */
+
+.color1 {
+  color: #001349;
+}
+
+.color2 {
+  color: #c46200;
+}
+
+.bg-color1 {
+  background-color: #001349;
+}
+
+.bg-color2 {
+  background-color: #c46200;
+}
+
+.bg-color3 {
+  background-color: #4791fc;
+}
+
+/* Classes */
+
+.full-height {
+  /* height: 120vh; */
+}
+
+.nav-link {
+  margin-left: 8rem;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #c46200;
+  transform: scale(1.2);
+}
+
+#buy_turu {
+  color: #c46200;
+}
+
+#benefit {
+  background-color: #c46200;
+}
+
+#uses {
+  margin-bottom: 1rem;
+}
+
+#pos {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  color: #fff;
+  background: linear-gradient(to bottom, #0043d8, #001349);
+}
+
+.bg-image {
+  background-image: url("./assets/turung_bg1.jpg");
+  filter: blur(2px);
+  -webkit-filter: blur(4px);
+  height: 50rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgba(19, 4, 4, 0.568);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+#team {
+  background: linear-gradient(to top, #000, #0a0);
+  background-position: center;
+  color: #fff;
+  padding: 50% 0;
+}
+
+/* Animate Coin */
+
+.planet {
+  display: flex;
+  flex-direction: column;
+}
+
+.planet h2 {
+  font-size: 4rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.turu {
+  -webkit-text-stroke: 1px #c46200;
+  -webkit-text-fill-color: #001349;
+}
+
+.coin {
+  -webkit-text-stroke: 1px #001349;
+  -webkit-text-fill-color: #c46200;
+}
+
+.planet .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.planetEarth {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-width: 50%;
+  height: 100vh;
+  background-color: #182357;
+}
+
+.planetEarth .loader {
+  position: relative;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%;
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.planetEarth .loader:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to top, transparent, rgba(118, 121, 155, 0.4));
+  background-size: 200px 360px;
+  background-repeat: no-repeat;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+}
+
+.planetEarth .loader:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background: #c46200;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 0 0 10px #c46200, 0 0 20px #c46200, 0 0 30px #c46200,
+    0 0 40px #c46200, 0 0 50px #c46200, 0 0 60px #c46200, 0 0 70px #c46200,
+    0 0 80px #c46200, 0 0 90px #c46200, 0 0 100px #c46200;
+}
+
+.planetEarth .loader span {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #182357;
+  border-radius: 50%;
+}
+
+.earth {
+  position: absolute;
+  width: 21.25px;
+  height: 21.25px;
+  border-radius: 50%;
+  background: url(./assets/turung_coin_anime.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 20px #ffd700, 0 0 120px #ffd700;
+  animation: animateEarth 20s linear infinite;
+}
+
+@keyframes animateEarth {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Animate logo */
+
+.navbar-brand:hover {
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+  height: 50vh;
+  color: #fff;
+  background-color: #001349;
+  text-align: center;
+}
+
+/* Mobile styles */
+
+@media screen and (max-width: 700px) {
+  img {
+    width: 100%;
+  }
+
+  .planetEarth .loader {
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .earth {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .nav-link {
+    margin-left: 75%;
+  }
+
+  .planet h2 {
+    font-size: 3rem;
+  }
+
+  .big-heading {
+    text-align: center;
+    color: #ffffffd2;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 0;
+    z-index: 12;
+    top: 70%;
+    left: 15%;
+    position: absolute;
+    animation: big-heading 4s linear 1;
+    animation-delay: 3s;
+    border-bottom: 3rem;
+  }
+
+  @keyframes big-heading {
+    0% {
+      top: 50%;
+      left: 15%;
+    }
+    100% {
+      top: 70%;
+      left: 15%;
+    }
+  }
+
+  article {
+    padding: 10% 7%;
+  }
+
+  .place-right {
+    padding-left: 50px;
+  }
+
+  /* How to */
+
+  #buy_turu {
+    display: block;
+  }
+
+  #sales,
+  #team,
+  #tokenomics {
+    margin: 20% 0;
+  }
+
+  /* footer hr {
+
+  } */
+}
+
+@media screen and (max-width: 350px) {
+  .big-heading {
+    left: 8%;
+  }
+
+  @keyframes big-heading {
+    0% {
+      top: 50%;
+      left: 8%;
+    }
+    100% {
+      top: 65%;
+      left: 8%;
+    }
+  }
+}
