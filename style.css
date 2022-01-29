@@ -4,9 +4,14 @@
 body,
 html {
   height: 100%;
+}
+
+section,
+article {
   font-family: "Montserrat", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto Slab", serif;
+  line-height: 2;
 }
 
 * {
@@ -120,7 +125,7 @@ li {
   flex-direction: column;
 }
 
-.planet h2 {
+.planet h1 {
   font-size: 4rem;
   margin-bottom: 40px;
   font-weight: 600;
@@ -247,8 +252,19 @@ footer {
 /* Mobile styles */
 
 @media screen and (max-width: 700px) {
+  h2,
+  h3,
+  h6 {
+    padding: 10% 0;
+  }
+
+  p {
+    padding-bottom: 10%;
+  }
+
   img {
     width: 100%;
+    padding-bottom: 5%;
   }
 
   .planetEarth .loader {
@@ -308,6 +324,11 @@ footer {
 
   #buy_turu {
     display: block;
+  }
+
+  #buy_turu h2,
+  #buy_turu h6 {
+    color: #001349;
   }
 
   #sales,
