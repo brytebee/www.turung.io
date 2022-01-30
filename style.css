@@ -8,9 +8,6 @@ html {
 
 section,
 article {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto Slab", serif;
   line-height: 2;
 }
 
@@ -20,10 +17,16 @@ article {
 
 /* Move to to arrow styles */
 
+li a,
+p a,
 button a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
+}
+
+li a:hover {
+  font-size: 20px;
 }
 
 li {
@@ -53,8 +56,10 @@ li {
 
 /* Classes */
 
-.full-height {
-  /* height: 120vh; */
+.font {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .nav-link {
