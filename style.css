@@ -252,6 +252,12 @@ footer {
 /* Mobile styles */
 
 @media screen and (max-width: 700px) {
+  nav {
+    position: absolute;
+    top: 0;
+    z-index: 80;
+  }
+
   h2,
   h3,
   h6 {
@@ -293,22 +299,19 @@ footer {
     font-weight: 600;
     padding-bottom: 0;
     z-index: 12;
-    top: 70%;
-    left: 15%;
+    top: 77%;
     position: absolute;
     animation: big-heading 4s linear 1;
-    animation-delay: 3s;
+    line-height: 1;
     border-bottom: 3rem;
   }
 
   @keyframes big-heading {
     0% {
-      top: 50%;
-      left: 15%;
+      top: 40%;
     }
     100% {
-      top: 70%;
-      left: 15%;
+      top: 77%;
     }
   }
 
@@ -342,7 +345,7 @@ footer {
   } */
 }
 
-@media screen and (max-width: 350px) {
+/* @media screen and (max-width: 350px) {
   .big-heading {
     left: 8%;
   }
@@ -357,4 +360,4 @@ footer {
       left: 8%;
     }
   }
-}
+} */
