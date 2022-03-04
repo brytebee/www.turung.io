@@ -113,7 +113,6 @@ li {
   transform: translate(-50%, -50%);
   width: 100%;
   padding: 20px;
-  text-align: center;
 }
 
 #team {
@@ -123,45 +122,49 @@ li {
   /* padding: 50% 0; */
 }
 
-.flip-card {
-  background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
+.whole-screen {
+  height: 100vh;
 }
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
+.first-section {
+  padding: 12rem 2rem 0;
+  background: #ffffff;
+}
+
+.top-heading {
+  font-size: 6rem;
+  margin-bottom: -1.4rem;
+}
+
+.text-center {
   text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+.intro {
+  position: relative;
+  margin-bottom: -2rem;
 }
 
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+.moto {
+  font-size: 0.7rem;
+  padding-right: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  animation: fadeIn 2s infinite;
+  opacity: 1;
 }
 
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
+.intro-description {
+  padding: 0 3rem;
 }
 
-.flip-card-back {
-  background-color: #2980b9;
-  color: white;
-  transform: rotateY(180deg);
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Animate Coin */
@@ -200,7 +203,6 @@ li {
   justify-content: center;
   align-items: center;
   min-width: 50%;
-  height: 100vh;
   background-color: #182357;
 }
 
@@ -293,7 +295,6 @@ footer {
   height: 50vh;
   color: #fff;
   background-color: #001349;
-  text-align: center;
 }
 
 /* Mobile styles */
@@ -331,7 +332,7 @@ footer {
   }
 
   .nav-link {
-    margin-left: 75%;
+    margin-left: 45%;
   }
 
   .planet h2 {
@@ -339,7 +340,6 @@ footer {
   }
 
   .big-heading {
-    text-align: center;
     color: #ffffffd2;
     margin-bottom: 0;
     font-size: 2rem;
