@@ -127,8 +127,8 @@ li {
 }
 
 .top-heading {
-  font-size: 4.5rem;
-  margin-bottom: -0.9rem;
+  font-size: 8rem;
+  margin-bottom: -2rem;
   font-weight: 700;
 }
 
@@ -141,6 +141,7 @@ li {
   -webkit-animation: focus-in-contract-bck 0.5s
     cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: focus-in-contract-bck 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  flex: 3;
 }
 
 @-webkit-keyframes focus-in-contract-bck {
@@ -180,10 +181,10 @@ li {
 }
 
 .moto {
-  font-size: 0.5rem;
-  padding-right: 2.6rem;
+  font-size: 1.2rem;
+  padding-right: 4.5rem;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   animation: fadeIn 2s infinite;
   opacity: 1;
 }
@@ -198,10 +199,11 @@ li {
 }
 
 .intro-description {
-  padding: 0 1rem 2rem;
-  font-size: large;
+  padding: 2rem 12rem 2rem 8rem;
+  font-size: larger;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
+  flex: 2;
 }
 
 .first-section {
@@ -244,6 +246,7 @@ li {
   position: absolute;
   top: 0;
   z-index: 10;
+  display: flex;
 }
 
 /* Animate Coin */
@@ -478,5 +481,25 @@ footer {
 
   .first-section-img-desktop {
     display: none;
+  }
+
+  .begin {
+    display: block;
+  }
+
+  .top-heading {
+    font-size: 4.5rem;
+    margin-bottom: -0.9rem;
+  }
+
+  .moto {
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+    padding-right: 2.6rem;
+  }
+
+  .intro-description {
+    padding: 0 1rem 2rem;
+    font-size: large;
   }
 }
