@@ -271,6 +271,8 @@ li {
 .turu {
   -webkit-text-stroke: 1px #c46200;
   -webkit-text-fill-color: #001349;
+  font-size: 7rem;
+  font-weight: 600;
 }
 
 .coin {
@@ -290,8 +292,8 @@ li {
   position: relative;
   align-items: center;
   min-width: 50%;
+  justify-content: center;
   background-color: #182357;
-  padding: 4rem 0 0 0;
 }
 
 .planetEarth .loader {
@@ -353,8 +355,8 @@ li {
 
 .earth {
   position: absolute;
-  width: 21.25px;
-  height: 21.25px;
+  width: 18rem;
+  height: 18rem;
   border-radius: 50%;
   background: url(./assets/turung_coin_anime.jpg);
   background-size: cover;
@@ -375,6 +377,29 @@ li {
 
 .navbar-brand:hover {
   transform: scale(1.2);
+}
+
+.big-heading {
+  color: #ffffffd2;
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 0;
+  z-index: 12;
+  top: 80%;
+  position: absolute;
+  animation: big-heading 4s linear 1;
+  line-height: 1;
+  border-bottom: 3rem;
+}
+
+@keyframes big-heading {
+  0% {
+    top: 40%;
+  }
+  100% {
+    top: 80%;
+  }
 }
 
 /* Footer */
@@ -414,11 +439,6 @@ footer {
     height: 14rem;
   }
 
-  .earth {
-    width: 12rem;
-    height: 12rem;
-  }
-
   .nav-link {
     margin-left: 45%;
   }
@@ -428,26 +448,7 @@ footer {
   }
 
   .big-heading {
-    color: #ffffffd2;
-    margin-bottom: 0;
-    font-size: 2rem;
-    font-weight: 600;
-    padding-bottom: 0;
-    z-index: 12;
-    top: 70%;
-    position: absolute;
-    animation: big-heading 4s linear 1;
-    line-height: 1;
-    border-bottom: 3rem;
-  }
-
-  @keyframes big-heading {
-    0% {
-      top: 40%;
-    }
-    100% {
-      top: 70%;
-    }
+    font-size: 1.5rem;
   }
 
   article {
@@ -511,5 +512,15 @@ footer {
 
   .img-full-weight {
     width: 100%;
+  }
+
+  .earth {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .planetEarth {
+    justify-content: start;
+    padding: 4rem 0 0 0;
   }
 }
