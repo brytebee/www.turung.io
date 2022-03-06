@@ -251,7 +251,7 @@ li {
   display: flex;
 }
 
-.full-weight {
+.img-full-weight {
   width: 40%;
 }
 
@@ -507,5 +507,9 @@ footer {
   .intro-description {
     padding: 0 1rem 2rem;
     font-size: large;
+  }
+
+  .img-full-weight {
+    width: 100%;
   }
 }
