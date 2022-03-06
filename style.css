@@ -284,10 +284,10 @@ li {
 
 .planetEarth {
   position: relative;
-  justify-content: center;
   align-items: center;
   min-width: 50%;
   background-color: #182357;
+  padding: 4rem 0 0 0;
 }
 
 .planetEarth .loader {
@@ -430,7 +430,7 @@ footer {
     font-weight: 600;
     padding-bottom: 0;
     z-index: 12;
-    top: 77%;
+    top: 70%;
     position: absolute;
     animation: big-heading 4s linear 1;
     line-height: 1;
@@ -442,7 +442,7 @@ footer {
       top: 40%;
     }
     100% {
-      top: 77%;
+      top: 70%;
     }
   }
 
