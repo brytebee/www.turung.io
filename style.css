@@ -251,6 +251,10 @@ li {
   display: flex;
 }
 
+.full-weight {
+  width: 40%;
+}
+
 /* Animate Coin */
 
 .planet {
