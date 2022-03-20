@@ -543,4 +543,8 @@ footer {
   .online-text {
     margin: 1rem 0.5rem;
   }
+
+  .top-header-bottom-text {
+    display: none;
+  }
 }
