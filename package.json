@@ -4,7 +4,9 @@
   "description": "Turung is an online smartstore that allows traditional brick and\r mortar stores provide crypto-fiat liquidity through a decentralized\r payment system called TURUpay. Turupay is powered by Turupower tokens\r (TPR) which powers every currency conversion and transactions within\r the ecosystem",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "homepage": "https://github.com/brytebee/www.turung.io#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.70.0",
