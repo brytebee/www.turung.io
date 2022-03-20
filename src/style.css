@@ -116,7 +116,7 @@ li {
 }
 
 #team {
-  background: linear-gradient(to top, #000, #0043d8);
+  background: linear-gradient(to right, rgb(8, 1, 32), #0043d8);
   background-position: center;
   color: rgb(165, 151, 151);
   /* padding: 50% 0; */
