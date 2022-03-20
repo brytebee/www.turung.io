@@ -145,6 +145,14 @@ li {
   flex: 3;
 }
 
+.online-container {
+  margin: 4rem 0;
+}
+
+.online-text {
+  margin: 2rem 22rem;
+}
+
 @-webkit-keyframes focus-in-contract-bck {
   0% {
     letter-spacing: 1em;
@@ -526,5 +534,13 @@ footer {
   .planetEarth {
     justify-content: start;
     padding: 4rem 0 0 0;
+  }
+
+  .online-container {
+    margin: 1rem 0;
+  }
+
+  .online-text {
+    margin: 1rem 0.5rem;
   }
 }
