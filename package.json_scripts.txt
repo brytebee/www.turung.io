@@ -1,7 +1,0 @@
-package.json scripts
-
-"scripts": {
-  "watch": "webpack --watch",
-  "start": "webpack serve --open",
-  "build": "webpack", 
-}
