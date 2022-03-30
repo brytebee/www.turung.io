@@ -25,10 +25,6 @@ button a {
   cursor: pointer;
 }
 
-li a:hover {
-  font-size: 20px;
-}
-
 li {
   list-style: none;
 }
@@ -62,13 +58,8 @@ li {
   font-family: "Roboto Slab", serif; */
 }
 
-.nav-link {
-  margin-left: 8rem;
-}
-
 .nav-link:hover {
   border-bottom: 2px solid #c46200;
-  transform: scale(1.2);
 }
 
 #buy_turu {
@@ -385,12 +376,6 @@ li {
   }
 }
 
-/* Animate logo */
-
-.navbar-brand:hover {
-  transform: scale(1.2);
-}
-
 .big-heading {
   color: #ffffffd2;
   margin-bottom: 0;
@@ -429,6 +414,10 @@ footer {
     position: absolute;
     top: 0;
     z-index: 80;
+  }
+
+  .nav-link {
+    margin-left: 8rem;
   }
 
   h2,
