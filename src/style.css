@@ -59,7 +59,8 @@ li {
 }
 
 .nav-link:hover {
-  border-bottom: 2px solid #c46200;
+  text-decoration: underline #c46200;
+  font-size: 18px;
 }
 
 #buy_turu {
