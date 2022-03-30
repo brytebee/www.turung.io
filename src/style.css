@@ -58,6 +58,10 @@ li {
   font-family: "Roboto Slab", serif; */
 }
 
+.nav-link {
+  margin-left: 36px;
+}
+
 .nav-link:hover {
   text-decoration: underline #c46200;
 }
