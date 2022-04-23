@@ -123,7 +123,7 @@ li {
 }
 
 .top-heading {
-  font-size: 8rem;
+  font-size: 7rem;
   margin-bottom: -2rem;
   font-weight: 700;
 }
@@ -134,10 +134,6 @@ li {
 
 .intro {
   margin-bottom: -2rem;
-  -webkit-animation: focus-in-contract-bck 0.5s
-    cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: focus-in-contract-bck 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation-iteration-count: 2;
   flex: 3;
 }
 
@@ -186,7 +182,7 @@ li {
 }
 
 .moto {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding-right: 4.5rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -279,8 +275,8 @@ li {
 .turu {
   -webkit-text-stroke: 1px #c46200;
   -webkit-text-fill-color: #001349;
-  font-size: 7rem;
-  font-weight: 600;
+  font-size: 8rem;
+  font-weight: 900;
 }
 
 .coin {
