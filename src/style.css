@@ -436,6 +436,10 @@ footer {
     padding-bottom: 5%;
   }
 
+  .turu {
+    padding-top: 4rem;
+  }
+
   .planetEarth .loader {
     width: 14rem;
     height: 14rem;
