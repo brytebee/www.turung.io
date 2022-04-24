@@ -10,7 +10,7 @@ the ecosystem
 
 ## Screenshot
 
-![Coming soon](comingsoon)
+![Turung Coin](https://user-images.githubusercontent.com/27709832/164998130-43799d3c-4fda-44b3-96ef-4c352f4d5681.png)
 
 ## Live Demo
 
